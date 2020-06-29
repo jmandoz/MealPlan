@@ -14,6 +14,7 @@
 		A4C8416224A964D600D00C24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C8416124A964D600D00C24 /* Assets.xcassets */; };
 		A4C8416524A964D600D00C24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4C8416424A964D600D00C24 /* Preview Assets.xcassets */; };
 		A4C8416824A964D600D00C24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4C8416624A964D600D00C24 /* LaunchScreen.storyboard */; };
+		A4C8417124A9673E00D00C24 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8417024A9673E00D00C24 /* Recipe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A4C8416424A964D600D00C24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A4C8416724A964D600D00C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4C8416924A964D600D00C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4C8417024A9673E00D00C24 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +63,11 @@
 				A4C8415824A964D300D00C24 /* AppDelegate.swift */,
 				A4C8415A24A964D300D00C24 /* SceneDelegate.swift */,
 				A4C8415F24A964D300D00C24 /* ContentView.swift */,
+				A4C8417024A9673E00D00C24 /* Recipe.swift */,
 				A4C8416124A964D600D00C24 /* Assets.xcassets */,
 				A4C8416624A964D600D00C24 /* LaunchScreen.storyboard */,
 				A4C8416924A964D600D00C24 /* Info.plist */,
-				A4C8415C24A964D300D00C24 /* MealPlan.xcdatamodeld */,
+				A4C8416F24A9658100D00C24 /* CoreData */,
 				A4C8416324A964D600D00C24 /* Preview Content */,
 			);
 			path = MealPlan;
@@ -76,6 +79,14 @@
 				A4C8416424A964D600D00C24 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4C8416F24A9658100D00C24 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8415C24A964D300D00C24 /* MealPlan.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 				A4C8415924A964D300D00C24 /* AppDelegate.swift in Sources */,
 				A4C8416024A964D300D00C24 /* ContentView.swift in Sources */,
 				A4C8415B24A964D300D00C24 /* SceneDelegate.swift in Sources */,
+				A4C8417124A9673E00D00C24 /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
